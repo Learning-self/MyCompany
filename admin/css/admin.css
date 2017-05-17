@@ -1,0 +1,76 @@
+@CHARSET "UTF-8";
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote,th,td,img{
+padding: 0;
+margin: 0;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+a{
+	color:#666;
+	text-decoration:none;
+}
+a:hover{
+	color:#0087ce;
+}
+fieldset,img {
+border: 0;
+}
+address,caption,cite,code,dfn,em,strong,th,var{
+font-weight: normal;
+font-style: normal;
+}
+ol,ul {
+list-style: none;
+}
+caption,th {
+text-align: left;
+}
+h1,h2,h3,h4,h5,h6 {
+font-weight: normal;
+font-size: 100%;
+}
+q:before,q:after {
+content:'';
+}
+abbr,acronym { border: 0;
+} 
+body{
+	background:#f6f6f6;
+}
+div.container{
+	width:100%;
+}
+
+div.container div#login form{
+	width:680px;
+	margin:200px auto;
+	font-size: 20px;
+}
+div.container div#login form tr{
+	text-align:left;
+}
+div.container div#login form tr td{
+	height:40px;
+	
+}
+div.container div#login form tr td input{
+	height: 25px;
+}
+div.container div#login form tr td img#captcha_img{
+	margin-bottom: -10px;
+}
+div.container div#login form tr td a{
+	font-size: 15px;
+}
+div.container div#login form tr#submit{
+	text-align: center;
+	
+}
+div.container div#login form tr#submit td input{
+	width:60px;
+	height:25px;
+}
